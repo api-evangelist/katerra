@@ -64,5 +64,17 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Katerra is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/katerra_stock/
+Katerra was a Menlo Park, California off-site construction and building-technology company founded in
+2015 by Michael Marks, Fritz Wolff and Jim Davidson, which raised more than $2 billion — mostly from
+the SoftBank Vision Fund — to design, manufacture and assemble buildings end to end. Its only software
+product, Katerra Apollo, was announced in February 2019 and promised open API integration with existing
+construction workflows, but it was sold to Katerra's construction customers and never shipped a public
+developer portal, API reference, SDK or machine-readable specification. Katerra shut down and filed
+Chapter 11 on 6 June 2021; the Apollo software assets were acquired by Builders FirstSource in
+September 2021 and the factories were sold separately.
+
+**There is no API surface to catalog.** katerra.com serves a Cloudflare error 1001 (HTTP 409) on every
+path and cannot complete a TLS handshake; `api.`, `docs.`, `developer.`, `apollo.` and `app.katerra.com`
+no longer resolve. The probe record is in `well-known/katerra-well-known.yml`.
+
+- Secondary-market listing: https://forgeglobal.com/katerra_stock/

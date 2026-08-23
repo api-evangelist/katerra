@@ -1,0 +1,63 @@
+generated: '2026-08-23'
+method: probed
+source: https://katerra.com/.well-known/ (probed 2026-08-23)
+note: >-
+  Every /.well-known/ path on katerra.com answers Cloudflare error 1001 ("DNS resolution
+  error") with HTTP 409 over plain HTTP, and HTTPS never completes a TLS handshake at all
+  (sslv3 alert handshake failure) — the zone is fronted by Cloudflare with no working
+  origin behind it. Katerra wound down in Chapter 11 in 2021; the Wayback Machine shows the
+  domain has been returning this same 409 error page continuously since April 2022. NO
+  document was served on any path, so this file records an absence only and NO WellKnown or
+  SecurityTxt pointer is wired into apis.yml.
+hosts:
+- host: katerra.com
+  scheme_note: >-
+    https://katerra.com/ fails at the TLS layer (LibreSSL error 1404B410, sslv3 alert
+    handshake failure) so every probe below was issued over http:// against the same host.
+  documents:
+  - path: /.well-known/security.txt
+    status: 409
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 409
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 409
+    file: null
+  - path: /.well-known/api-catalog
+    status: 409
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 409
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 409
+    file: null
+  - path: /.well-known/agent.json
+    status: 409
+    file: null
+other_probes:
+- url: http://katerra.com/openapi.json
+  status: 409
+- url: http://katerra.com/llms.txt
+  status: 409
+- url: https://api.katerra.com/
+  status: null
+  note: host does not resolve (NXDOMAIN)
+- url: https://docs.katerra.com/
+  status: null
+  note: host does not resolve (NXDOMAIN)
+- url: https://developer.katerra.com/
+  status: null
+  note: host does not resolve (NXDOMAIN)
+- url: https://apollo.katerra.com/
+  status: null
+  note: host does not resolve (NXDOMAIN)
+- url: https://app.katerra.com/
+  status: null
+  note: host does not resolve (NXDOMAIN)
+- url: https://apollo.dev-wp.katerra.com/
+  status: null
+  note: >-
+    resolves to CloudFront addresses but no HTTP or HTTPS connection completes; this legacy
+    WordPress staging host for the Apollo marketing site is dead.
