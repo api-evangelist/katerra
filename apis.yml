@@ -21,6 +21,17 @@ description: >-
   path and cannot complete a TLS handshake at all. This profile is retained as a historical record;
   there is no API surface left to catalog.
 url: https://raw.githubusercontent.com/api-evangelist/katerra/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 image: https://web.archive.org/web/20190712083445id_/http://katerra.com/content/dam/katerra/www/en_us/assets/images/logo/katerra.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg
 x-type: company
 x-source: harvest:secondary-market
