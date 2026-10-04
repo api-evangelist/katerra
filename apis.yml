@@ -74,7 +74,7 @@ tags:
 - Modular Construction
 - Prefabrication
 - Manufacturing
-- Real-Estate
+- Real Estate
 - Supply Chain
 tags_raw:
 - Company
@@ -87,6 +87,7 @@ tags_raw:
 - Manufacturing
 - Real Estate
 - Supply Chain
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
