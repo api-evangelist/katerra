@@ -64,17 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Katerra was a Menlo Park, California off-site construction and building-technology company founded in
-2015 by Michael Marks, Fritz Wolff and Jim Davidson, which raised more than $2 billion — mostly from
-the SoftBank Vision Fund — to design, manufacture and assemble buildings end to end. Its only software
-product, Katerra Apollo, was announced in February 2019 and promised open API integration with existing
-construction workflows, but it was sold to Katerra's construction customers and never shipped a public
-developer portal, API reference, SDK or machine-readable specification. Katerra shut down and filed
-Chapter 11 on 6 June 2021; the Apollo software assets were acquired by Builders FirstSource in
-September 2021 and the factories were sold separately.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-**There is no API surface to catalog.** katerra.com serves a Cloudflare error 1001 (HTTP 409) on every
-path and cannot complete a TLS handshake; `api.`, `docs.`, `developer.`, `apollo.` and `app.katerra.com`
-no longer resolve. The probe record is in `well-known/katerra-well-known.yml`.
+Katerra was a Menlo Park, California off-site construction and building-technology company founded in 2015 by former Flextronics chief executive Michael Marks with Fritz Wolff and Jim Davidson, built on the thesis that a single vertically integrated firm could design, engineer, manufacture and assemble buildings end to end — running its own architecture practice, factories in Phoenix, Tracy and Spokane producing cross-laminated timber and prefabricated wall, floor and bathroom assemblies, and its own supply chain and general contracting arm. It raised more than $2 billion across a dozen rounds, including an $865M Series D led by the SoftBank Vision Fund in January 2018 at a valuation above $3 billion and a $200M recapitalization in December 2020 that handed SoftBank majority control. Its only software product was Katerra Apollo, announced in February 2019 as a design-to-field platform (Apollo Construct, Apollo Insight, Apollo Connect) whose launch materials promised "open API integration" with existing construction workflows — but Apollo was sold to Katerra's own construction customers and never shipped a public developer portal, API reference, SDK or machine-readable specification. The insolvency of its SoftBank-backed lender Greensill Capital cost Katerra its bonding capacity, and the company shut down and filed Chapter 11 in the Southern District of Texas on 6 June 2021. Its assets were broken up: the Apollo software went to Builders FirstSource for roughly $4.5M on 9 September 2021, and the factories were sold separately. katerra.com no longer serves a site — it answers a Cloudflare error 1001 on every path and cannot complete a TLS handshake at all. This profile is retained as a historical record; there is no API surface left to catalog.
 
-- Secondary-market listing: https://forgeglobal.com/katerra_stock/
+**Areas:** Company · Defunct · Construction · Construction Technology · Building Materials · Modular Construction · Prefabrication · Manufacturing · Real Estate · Supply Chain
+
+## Katerra on APIs.io (historical record)
+
+Everything profiled for Katerra is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/katerra/](https://apis.io/providers/katerra/)** — or go straight to one of the APIs or properties below.
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Katerra: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/katerra/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
